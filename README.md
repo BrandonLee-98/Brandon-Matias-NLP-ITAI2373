@@ -7,9 +7,9 @@ As an **Aspiring AI Developer**, this coursework has allowed me to explore how w
 
 ---
 #### 📰 NLP: Full Coursework Collection
-* **[NewsBot 2.0 Capstone](https://github.com/BrandonLee-98/ITAI2373-NewsBot-Final)**: My most advanced project—an automated news aggregator with sentiment analysis and SMOTE data balancing.
-* **[Midterm Project](https://github.com/BrandonLee-98/ITAI2373-Midterm-Project)**: The foundational logic for the NewsBot system.
-* **[NLP Labs](https://github.com/BrandonLee-98/Brandon-Matias-NLP-ITAI2373/tree/main/NLP_Labs)**: Individual modules covering tokenization, POS tagging, and vectorization.
+* **[NewsBot 2.0 Capstone](https://github.com/BrandonLee-98/ITAI2373-NewsBot-Final)** : My most advanced project—an automated news aggregator with sentiment analysis and SMOTE data balancing.
+* **[Midterm Project](https://github.com/BrandonLee-98/ITAI2373-Midterm-Project)** : The foundational logic for the NewsBot system.
+* **[NLP Labs](https://github.com/BrandonLee-98/Brandon-Matias-NLP-ITAI2373/tree/2ff4e0d4ba32b355021056cd245e326c454ff079/NLP%20Labs)** : Individual modules covering tokenization, POS tagging, and vectorization.
 ---
 ### 📊 Master Coursework Table
 
