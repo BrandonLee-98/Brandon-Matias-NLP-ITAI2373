@@ -28,30 +28,32 @@ I have organized my assignments to show the progression of skills required to bu
 
 ---
 
-### 🚀 Featured Project: NewsBot Intelligence System 2.0
-**The Capstone Project**
+## 🚀 Featured Project: NewsBot Intelligence System 2.0
 
-#### 🧩 Problem Statement
-In fast-moving situations—like weather emergencies in Houston—there is often an "information overload." It is difficult for individuals or emergency responders to manually sort through thousands of news articles to find relevant, actionable information.
+### The Capstone Project
+### 🧩 Problem Statement
 
-#### 🛠️ Methodology & Approach
-For this system, I built a pipeline that:
-1. **Gathers Data:** Pulls real-world news articles.
-2. **Cleans Text:** Applies the normalization techniques learned in Lab 02.
-3. **Balances Data (SMOTE):** One of my key learnings was using **SMOTE** to ensure the model didn't become biased toward categories with more articles.
-4. **Classifies:** Uses a **Logistic Regression** model and **TF-IDF Vectorization** to categorize news and score its sentiment.
+In today's global market, organizations and analysts are overwhelmed by "information fatigue." It is no longer cost-effective to manually sort through thousands of daily articles to find actionable intelligence. Furthermore, decision-makers constantly hit the "Language Wall"—with a massive portion of critical global news originating in non-English markets. Legacy systems miss these signals, causing delays in competitive response and market strategy.
 
-#### 💡 Learning Outcomes
-Through this project, I realized that **Data Quality > Model Complexity**. Spending more time cleaning the data and balancing the categories (using SMOTE) improved my accuracy much more than just picking a "fancier" algorithm.
+### 🛠️ Methodology & Approach
 
----
+For this system, I transitioned from foundational NLP scripts into building a production-ready, modular intelligence pipeline that:
+* **Analyzes Content Dynamically:** Implements Zero-Shot Classification (`distilbart-mnli`) to categorize news on the fly without pre-defined training labels, alongside Latent Dirichlet Allocation (LDA) to discover hidden statistical themes.
+* **Synthesizes Intelligence:** Generates abstractive, human-like executive summaries using a dedicated `distilbart-cnn` transformer model, reducing reading load by 90%.
+* **Breaks the Language Barrier:** Uses a multilingual pivot architecture to automatically detect and translate global news (e.g., Spanish, French, German) into English for uniform pipeline processing.
+* **Interrogates Data:** Features an extractive Question Answering (QA) chatbot (`minilm-uncased-squad2`) integrated into a custom Flask web dashboard, allowing users to "interview" the article context directly.
+
+### 💡 Learning Outcomes
+
+Through this project, I realized that **modular architecture is not a luxury; it is a survival mechanism.** Transitioning from experimental Jupyter notebooks to a production-ready, service-oriented application forced me to confront real-world engineering challenges, such as "dependency hell" involving legacy library locks and binary mismatches. I learned that strictly decoupling my NLP modules—separating the translation logic from the summarization engine, for example—ensured the system remained scalable and robust against individual component failures. 
 
 ### 🛠️ Technical Arsenal
-These are the specific Python libraries I practiced with throughout this course:
-* **NLTK & SpaCy:** For linguistic processing and tokenization.
-* **Scikit-learn:** For building and evaluating machine learning models.
-* **Pandas & NumPy:** For data manipulation and matrix operations.
-* **Imbalanced-learn (SMOTE):** For handling uneven datasets.
+
+These are the specific tools and libraries I practiced with to build this full-stack NLP platform:
+* **Hugging Face Transformers:** For implementing state-of-the-art zero-shot classification, abstractive summarization, and extractive QA models.
+* **Scikit-Learn & Pandas:** For building the statistical topic modeling (LDA) pipeline and handling complex data manipulation.
+* **Flask & Chart.js:** For developing the interactive Single Page Application (SPA) dashboard and rendering real-time sentiment evolution visualizations.
+* **Deep-Translator & Langdetect:** For executing the cross-lingual analysis and automated translation workflows.
 
 ---
 ### 🔗 Portfolio Navigation
