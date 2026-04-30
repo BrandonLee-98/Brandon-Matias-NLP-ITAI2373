@@ -6,17 +6,21 @@ This repository serves as a comprehensive collection of my work in Natural Langu
 As an **Aspiring AI Developer**, this coursework has allowed me to explore how we can use Python to help computers understand, interpret, and respond to human language in meaningful ways.
 
 ---
-
+#### 📰 NLP: Full Coursework Collection
+* **[NewsBot 2.0 Capstone](https://github.com/BrandonLee-98/ITAI2373-NewsBot-Final)**: My most advanced project—an automated news aggregator with sentiment analysis and SMOTE data balancing.
+* **[Midterm Project](https://github.com/BrandonLee-98/ITAI2373-Midterm-Project)**: The foundational logic for the NewsBot system.
+* **[NLP Labs](https://github.com/BrandonLee-98/Brandon-Matias-NLP-ITAI2373/tree/main/NLP_Labs)**: Individual modules covering tokenization, POS tagging, and vectorization.
+---
 ### 📊 Master Coursework Table
 
 I have organized my assignments to show the progression of skills required to build complex AI systems.
 
 | Assignment | Topic | Key Skills & Learning Outcomes |
 | :--- | :--- | :--- |
-| **Lab 02** | [NLP Processing Techniques](https://eagleonline.hccs.edu/courses/317739/grades) | Mastered text "normalization" including tokenization, lemmatization, and removing stop words. |
-| **Lab 04** | [Text Representation](https://eagleonline.hccs.edu/courses/317739/grades) | Explored Vectorization (TF-IDF) to convert raw text into numerical data for machine learning models. |
-| **Lab 05** | [Part-of-Speech Tagging](https://eagleonline.hccs.edu/courses/317739/grades) | Used NLTK to identify parts of speech (nouns, verbs, etc.) to understand sentence structure. |
-| **Lab 07** | [Sentiment & Emotion Analysis](https://eagleonline.hccs.edu/courses/317739/grades) | Implemented models to classify the emotional "tone" of text data. |
+| **Lab 02** | NLP Processing Techniques | Mastered text "normalization" including tokenization, lemmatization, and removing stop words. |
+| **Lab 04** | Text Representation | Explored Vectorization (TF-IDF) to convert raw text into numerical data for machine learning models. |
+| **Lab 05** | Part-of-Speech Tagging | Used NLTK to identify parts of speech (nouns, verbs, etc.) to understand sentence structure. |
+| **Lab 07** | Sentiment & Emotion Analysis | Implemented models to classify the emotional "tone" of text data. |
 | **Midterm** | NewsBot Intelligence System | Collaborative project building a basic news scraper and classification pipeline. |
 | **Capstone** | **NewsBot 2.0 (Final Project)** | A complete end-to-end system for news aggregation and sentiment classification. |
 
