@@ -1,3 +1,5 @@
+[←🏠 Back to Main Portfolio Hub](https://github.com/BrandonLee-98/AI-Portfolio-Brandon-Matias)
+
 # 📰 Natural Language Processing: Coursework Collection
 **ITAI 2373 | Houston City College** | **Brandon Matias**
 
@@ -50,15 +52,6 @@ These are the specific Python libraries I practiced with throughout this course:
 * **Scikit-learn:** For building and evaluating machine learning models.
 * **Pandas & NumPy:** For data manipulation and matrix operations.
 * **Imbalanced-learn (SMOTE):** For handling uneven datasets.
-
----
-
-### ⚙️ Setup and Installation
-To run any of the labs or the NewsBot system locally:
-
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/BrandonLee-98/Brandon-Matias-NLP-ITAI2373.git](https://github.com/BrandonLee-98/Brandon-Matias-NLP-ITAI2373.git)
 
 ---
 ### 🔗 Portfolio Navigation
